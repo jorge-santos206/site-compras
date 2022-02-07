@@ -1,10 +1,10 @@
-const content = [
+const menu = [
     {
       id: 1,
       title: "grandma pc",
       category: "pc",
       price: 1300,
-      img: "",
+      img: "img1.jpg",
       desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
@@ -12,63 +12,63 @@ const content = [
       title: "pc meme",
       category: "pc",
       price: 1200,
-      img: "",
-      desc: `Maecenas tristique convallis dolor eu tempus. Proin fermentum velit mi, nec iaculis erat ornare in. Suspendisse ligula nulla, lacinia ut vehicula sit amet, efficitur et ante. Donec scelerisque blandit erat ac luctus. Donec hendrerit sollicitudin purus vel vulputate. Integer nec ullamcorper justo, id convallis ante. Aliquam semper in massa et mattis. Donec eu erat egestas, tincidunt dolor ornare, luctus dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec maximus urna quis hendrerit congue.`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 3,
       title: "spinner",
       category: "pc",
       price: 3000,
-      img: "",
-      desc: `Vivamus ultricies, lectus sed laoreet egestas, nulla nunc congue nunc, id placerat justo orci ut ligula. Nulla ac dolor nec eros pretium ornare. Duis malesuada ligula sed ex feugiat eleifend. Quisque velit lectus, auctor in cursus quis, pellentesque nec ligula. Duis tempus metus pellentesque ligula pharetra, id suscipit dui congue. Mauris sodales eleifend neque, ut mollis dui dictum sed. Donec fringilla id diam vel dignissim. Nullam fringilla sem risus, quis efficitur felis elementum eu. Integer pulvinar consequat consequat`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 4,
       title: "pc master race",
       category: "pc",
       price: 10000,
-      img: "",
-      desc: `Aenean eu viverra lorem, ac sodales tellus. Sed faucibus mi nec commodo pellentesque. Duis vitae neque et est vehicula efficitur. Aenean porta egestas auctor. Donec id leo et erat dignissim mollis vitae in sapien.`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 5,
       title: "middle not",
       category: "notebook",
       price:2000,
-      img: "",
-      desc: `Praesent eu laoreet eros. Nulla consequat elementum nunc eget vestibulum. Mauris vehicula ante et sem aliquet consectetur. Nunc eleifend quis quam tristique vestibulum. Phasellus viverra ultrices purus eu vulputate.`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 6,
-      title: "",
+      title: "generic notebook",
       category: "notebook",
       price: 1500,
-      img: "",
-      desc: `Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent quis nunc id metus tincidunt ultrices eu at enim. Sed dignissim tortor vel iaculis rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 7,
       title: "cheap not",
       category: "notebook",
       price: 1000,
-      img: "",
-      desc: `Praesent sem justo, dapibus a leo nec, porttitor ullamcorper ex. Suspendisse quam augue, varius convallis sem ac, porta maximus sapien. Nunc in ligula ante. Nulla fringilla vel tellus vel suscipit. Nunc mattis dolor metus, vitae ultricies libero semper ac. `,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 8,
       title: "mouse gamer",
       category: "acessories",
       price: 70,
-      img: "",
-      desc: `Curabitur quam risus, porttitor id mi vitae, finibus ultricies orci. Quisque eu egestas nis`,
+      img: "img1.jpg",
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
       id: 9,
       title: "keyboard",
       category: "acessories",
       price:50,
-      img: "",
+      img: "img1.jpg",
       desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
     {
@@ -76,9 +76,117 @@ const content = [
       title: "monitor",
       category: "acessories",
       price: 100,
-      img: "",
+      img: "img1.jpg",
       desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec luctus ipsum. Ut lobortis lacus neque, nec cursus leo lobortis ac. Curabitur ut leo maximus, dapibus arcu ac, mattis magna. Donec convallis massa luctus consectetur blandit. Morbi eget neque urna. Sed sed enim volutpat, dapibus velit eu, interdum sapien. Aliquam sagittis at lectus a placerat. Mauris odio justo, facilisis non interdum sed, molestie non odio. Duis varius sapien ac lacus finibus varius.`,
     },
   ];
+  const btns= document.querySelector(".btns-menu");
+  const conteudo= document.querySelector(".content");
+  
+  
+  
+  window.addEventListener("DOMContentLoaded", function () {
+    displayMenuItems(menu);
+    displayMenuButtons();
+  });
+
+  function displayMenuItems(menuItems) {
+    let displayMenu = menuItems.map(function (item) {
+      // console.log(item);
+  
+      return `<article class="menu-item">
+            <img src=${item.img} class="photo" alt=${item.title} />
+            <div class="item-info">
+              <header>
+                <h4 class="title">${item.title}</h4>
+                <h4 class="price">$${item.price}</h4>
+              </header>
+              <p class="item-text">
+                ${item.desc}
+              </p>
+            </div>
+            <button class="buy-btn">Buy</button>
+          </article>`;
+    });
+    displayMenu = displayMenu.join("");
+  
+    conteudo.innerHTML = displayMenu;
+  }
+
+  function displayMenuButtons() {
+    const categories = menu.reduce(
+      function (values, item) {
+        if (!values.includes(item.category)) {
+          values.push(item.category);
+        }
+        return values;
+      },
+      ["all"]
+    );
+    const categoryBtns = categories
+      .map(function (category) {
+        return `<button class="filter-btn" type="button" data-id=${category}>
+        ${category}
+        </button>`;
+      })
+      .join("");
+    btns.innerHTML = categoryBtns;
+    const filterBtns = btns.querySelectorAll(".filter-btn");
+    // filter items
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        const category = e.currentTarget.dataset.id;
+        const menuCategory = menu.filter(function (menuItem) {
+          // console.log(menuItem.category);
+          if (menuItem.category === category) {
+            return menuItem;
+          }
+        });
+        // console.log(menuCategory);
+        if (category === "all") {
+          displayMenuItems(menu);
+        } else {
+          displayMenuItems(menuCategory);
+        }
+      });
+    });
+  }function displayMenuButtons() {
+    const categories = menu.reduce(
+      function (values, item) {
+        if (!values.includes(item.category)) {
+          values.push(item.category);
+        }
+        return values;
+      },
+      ["all"]
+    );
+    const categoryBtns = categories
+      .map(function (category) {
+        return `<button class="filter-btn" type="button" data-id=${category}>
+        ${category}
+        </button>`;
+      })
+      .join("");
+    btns.innerHTML = categoryBtns;
+    const filterBtns = btns.querySelectorAll(".filter-btn");
+    // filter items
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        const category = e.currentTarget.dataset.id;
+        const menuCategory = menu.filter(function (menuItem) {
+          // console.log(menuItem.category);
+          if (menuItem.category === category) {
+            return menuItem;
+          }
+        });
+        // console.log(menuCategory);
+        if (category === "all") {
+          displayMenuItems(menu);
+        } else {
+          displayMenuItems(menuCategory);
+        }
+      });
+    });
+  }
 
  
